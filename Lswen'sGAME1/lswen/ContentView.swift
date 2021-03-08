@@ -2,16 +2,6 @@
 //  ContentView.swift
 //  lswen
 //
-/**                Text("|-------------|-------------|")
- .font(.largeTitle)
- .multilineTextAlignment(.center)
- .frame(width: 500, height: 120, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
- .background(/*@START_MENU_TOKEN@*//*@PLACEHOLDER=View@*/Color.white/*@END_MENU_TOKEN@*/)
- 
- .position(x: 207, y: 10)
-//Image(systemName: "mic")
-
- **/
 //  Created by lswen on 2021/3/4.
 //
 

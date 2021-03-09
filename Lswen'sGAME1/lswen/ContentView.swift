@@ -73,7 +73,8 @@ struct ContentView: View {
                     Text("答案:")
                         .padding(.horizontal, 20.0)
                         .padding(.vertical)
-                        .background(Color(red: 1, green: 1, blue:1, opacity: 0.8))                        .cornerRadius(13)
+                        .background(Color(red: 1, green: 1, blue:1, opacity: 0.8))                       
+			.cornerRadius(13)
                     TextField("請輸入",text:$text)
                             .padding(/*@START_MENU_TOKEN@*/.vertical/*@END_MENU_TOKEN@*/)
                             .padding(.horizontal, 50.0)
@@ -97,6 +98,7 @@ struct ContentView: View {
                             }
                             prompt=false
                             ans=false
+			    text=""
                         }, label: {
                             Text("下一題")
                         })//printnext
@@ -140,6 +142,7 @@ struct ContentView: View {
                     prompt=false
                     TotalScore=0
                     topiccount=0
+		    text=""
                     },label: {
                     Text("重新選10題")
                         .padding()
